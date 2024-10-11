@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tailwind.css">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
     <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-          <img class="mx-auto h-10 w-auto" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company">
+          <img class="mx-auto h-[100px] w-auto" src="https://64.media.tumblr.com/9af3266a39296d4bc6e452219697a54b/184a257fb4c961c1-ad/s1280x1920/527533a6ee83fab44febe834b166753f7f4ec4be.png" alt="Your Company">
           <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account</h2>
         </div>
       
@@ -35,7 +35,7 @@
             </div>
       
             <div>
-              <button type="submit" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign in</button>
+              <button type="submit" onclick="nextPage()" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign in</button>
             </div>
           </form>
       
@@ -45,6 +45,10 @@
           </p>
         </div>
       </div>
-      <script src="tailwind.config.js"></script>
+      <script>
+        function nextPage(){
+          window.location.href="employee_list.html";
+        }
+      </script>
 </body>
 </html>
