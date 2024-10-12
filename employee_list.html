@@ -12,10 +12,10 @@
     </style>
 </head>
 <body class="bg-gray-100 p-2">
-    <div class="max-w-6xl mx-auto">
-        <div class="flex justify-start items-start p-4 pt-[20px]">
-            <h1 class="pb-[10px] pl-[20px] text-4xl"><b>SinksRUs</b></h1>
-        </div>
+    <div class="flex justify-start items-start p-4 pt-[20px]">
+        <h1 class="pb-[10px] pl-[20px] text-4xl"><b>SinksRUs</b></h1>
+    </div>
+    <div class="max-w-4xl mx-auto pt-6">
 
         <div class="relative overflow-x-auto">
             <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-800">
@@ -32,18 +32,6 @@
                         </th>
                         <th scope="col" class="px-6 py-3">
                             Email
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                            Contact No.
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                            Address
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                            Sex
-                        </th>
-                        <th scope="col" class="px-6 py-3">
-                            Marital Status
                         </th>
                         <th scope="col" class="px-6 py-3">
 
@@ -64,18 +52,6 @@
                         <td class="px-6 py-4">
                             ivan.petrov@sinksrus.com
                         </td>
-                        <td class="px-6 py-4">
-                            555-6789
-                        </td>
-                        <td class="px-6 py-4">
-                            12 Red Square, Moscow
-                        </td>
-                        <td class="px-6 py-4">
-                            Male
-                        </td>
-                        <td class="px-6 py-4">
-                            Single
-                        </td>
                         <td class="px-2 py-4">
                             <a href="#modal_1" class="bg-blue-500 text-black px-4 py-2 rounded hover:bg-blue-600 ">Details</a>
                         </td>
@@ -92,18 +68,6 @@
                         </td>
                         <td class="px-6 py-4">
                             pedro_los_banos@sinksrus.com
-                        </td>
-                        <td class="px-6 py-4">
-                            
-                        </td>
-                        <td class="px-6 py-4">
-                            123 Mabini St
-                        </td>
-                        <td class="px-6 py-4">
-                            Male
-                        </td>
-                        <td class="px-6 py-4">
-                            Married
                         </td>
                         <td class="px-2 py-4">
                             <a href="#modal_2" class="bg-blue-500 text-black px-4 py-2 rounded hover:bg-blue-600">Details</a>
@@ -122,18 +86,6 @@
                         <td class="px-6 py-4">
                             ana.gomez@sinksrus.com
                         </td>
-                        <td class="px-6 py-4">
-                            555-1526
-                        </td>
-                        <td class="px-6 py-4">
-                            
-                        </td>
-                        <td class="px-6 py-4">
-                            Female
-                        </td>
-                        <td class="px-6 py-4">
-                            Divorced
-                        </td>
                         <td class="px-2 py-4">
                             <a href="#modal_3" class="bg-blue-500 text-black px-4 py-2 rounded hover:bg-blue-600">Details</a>
                         </td>
@@ -150,18 +102,6 @@
                         </td>
                         <td class="px-6 py-4">
                             john.wu@sinksrus.com
-                        </td>
-                        <td class="px-6 py-4">
-                            555-6925
-                        </td>
-                        <td class="px-6 py-4">
-                            456 Rizal St
-                        </td>
-                        <td class="px-6 py-4">
-                            Male
-                        </td>
-                        <td class="px-6 py-4">
-                            Single
                         </td>
                         <td class="px-2 py-4">
                             <a href="#modal_4" class="bg-blue-500 text-black px-4 py-2 rounded hover:bg-blue-600">Details</a>
@@ -180,18 +120,6 @@
                         <td class="px-6 py-4">
                             emma@sinksrus.com
                         </td>
-                        <td class="px-6 py-4">
-                            555-1111
-                        </td>
-                        <td class="px-6 py-4">
-                            
-                        </td>
-                        <td class="px-6 py-4">
-                            Female
-                        </td>
-                        <td class="px-6 py-4">
-                            Married
-                        </td>
                         <td class="px-2 py-4">
                             <a href="#modal_5" class="bg-blue-500 text-black px-4 py-2 rounded hover:bg-blue-600">Details</a>
                         </td>
@@ -203,42 +131,102 @@
     
         <!-- Modal -->
         <div id="modal_1" class="fixed inset-0 flex items-center justify-center hidden bg-gray-100 bg-opacity-50">
-            <div class="bg-white rounded-lg p-6">
-                <h2 class="text-lg font-semibold">MOMENT Title</h2>
-                <p class="px-2 py-4">This is the MOMENT.</p>
-                <a href="#" class="mt-4 bg-red-500 text-black px-4 py-2 rounded">Close</a>
+            <div class="bg-white rounded-lg p-6 flex flex-row">
+                <div>
+                    <img class="m-4 h-[300px] w-auto" src="img/petrov.png" alt="">
+                </div>
+                <div class="flex flex-col text-left justify-center">
+                    <h2 class="px-2 py-4 text-lg font-semibold">Ivan Petrov</h2>
+                    <p class="px-2 py-1">Software Engineer, IT Department</p>
+                    <p class="px-2 py-1 text-[13px]">Male, Single</p>
+                    <p class="px-2 py-1 text-gray-700">"Веб-дизайн — это мой момент"</p>
+                    <p class="px-2 pt-4 pb-1">Email: ivan.petrov@sinksrus.com</p>
+                    <p class="px-2 py-1">Contact No: 555-6789</p>
+                    <p class="px-2 py-1">Address: 12 Red Square, Moscow</p>
+                    <div class="flex items-center justify-center">
+                        <a href="#" class="mt-4 bg-red-500 text-black px-4 py-2 rounded">Close</a>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div id="modal_2" class="fixed inset-0 flex items-center justify-center hidden bg-gray-100 bg-opacity-50">
-            <div class="bg-white rounded-lg p-6">
-                <h2 class="text-lg font-semibold">Modal Title</h2>
-                <p>This is the content of the modal.</p>
-                <a href="#" class="mt-4 bg-red-500 text-black px-4 py-2 rounded">Close</a>
+            <div class="bg-white rounded-lg p-6 flex flex-row">
+                <div>
+                    <img class="m-4 h-[300px] w-auto" src="img/los banos.png" alt="">
+                </div>
+                <div class="flex flex-col text-left justify-center">
+                    <h2 class="px-2 py-4 text-lg font-semibold">Pedro Los Baños</h2>
+                    <p class="px-2 py-1">Marketing Manager, Marketing Department</p>
+                    <p class="px-2 py-1 text-[13px]">Male, Married</p>
+                    <p class="px-2 py-1 text-gray-700">"Pero tengo mujer."</p>
+                    <p class="px-2 pt-4 pb-1">Email: pedro_los_banos@sinksrus.com</p>
+                    <p class="px-2 py-1">Contact No: N/A</p>
+                    <p class="px-2 py-1">Address: 123 Mabini St</p>
+                    <div class="flex items-center justify-center">
+                        <a href="#" class="mt-4 bg-red-500 text-black px-4 py-2 rounded">Close</a>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div id="modal_3" class="fixed inset-0 flex items-center justify-center hidden bg-gray-100 bg-opacity-50">
-            <div class="bg-white rounded-lg p-6">
-                <h2 class="text-lg font-semibold">Modal Title</h2>
-                <p>This is the content of the modal.</p>
-                <a href="#" class="mt-4 bg-red-500 text-black px-4 py-2 rounded">Close</a>
+            <div class="bg-white rounded-lg p-6 flex flex-row">
+                <div>
+                    <img class="m-4 h-[300px] w-auto" src="img/los banos.png" alt="">
+                </div>
+                <div class="flex flex-col text-left justify-center">
+                    <h2 class="px-2 py-4 text-lg font-semibold"></h2>
+                    <p class="px-2 py-1"></p>
+                    <p class="px-2 py-1 text-[13px]"></p>
+                    <p class="px-2 py-1 text-gray-700">""</p>
+                    <p class="px-2 pt-4 pb-1">Email: </p>
+                    <p class="px-2 py-1">Contact No: </p>
+                    <p class="px-2 py-1">Address: </p>
+                    <div class="flex items-center justify-center">
+                        <a href="#" class="mt-4 bg-red-500 text-black px-4 py-2 rounded">Close</a>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div id="modal_4" class="fixed inset-0 flex items-center justify-center hidden bg-gray-100 bg-opacity-50">
-            <div class="bg-white rounded-lg p-6">
-                <h2 class="text-lg font-semibold">Modal Title</h2>
-                <p>This is the content of the modal.</p>
-                <a href="#" class="mt-4 bg-red-500 text-black px-4 py-2 rounded">Close</a>
+            <div class="bg-white rounded-lg p-6 flex flex-row">
+                <div>
+                    <img class="m-4 h-[300px] w-auto" src="img/los banos.png" alt="">
+                </div>
+                <div class="flex flex-col text-left justify-center">
+                    <h2 class="px-2 py-4 text-lg font-semibold"></h2>
+                    <p class="px-2 py-1"></p>
+                    <p class="px-2 py-1 text-[13px]"></p>
+                    <p class="px-2 py-1 text-gray-700">""</p>
+                    <p class="px-2 pt-4 pb-1">Email: </p>
+                    <p class="px-2 py-1">Contact No: </p>
+                    <p class="px-2 py-1">Address: </p>
+                    <div class="flex items-center justify-center">
+                        <a href="#" class="mt-4 bg-red-500 text-black px-4 py-2 rounded">Close</a>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div id="modal_5" class="fixed inset-0 flex items-center justify-center hidden bg-gray-100 bg-opacity-50">
-            <div class="bg-white rounded-lg p-6">
-                <h2 class="text-lg font-semibold">Modal Title</h2>
-                <p>This is the content of the modal.</p>
-                <a href="#" class="mt-4 bg-red-500 text-black px-4 py-2 rounded">Close</a>
+            <div class="bg-white rounded-lg p-6 flex flex-row">
+                <div>
+                    <img class="m-4 h-[300px] w-auto" src="img/los banos.png" alt="">
+                </div>
+                <div class="flex flex-col text-left justify-center">
+                    <h2 class="px-2 py-4 text-lg font-semibold"></h2>
+                    <p class="px-2 py-1"></p>
+                    <p class="px-2 py-1 text-[13px]"></p>
+                    <p class="px-2 py-1 text-gray-700">""</p>
+                    <p class="px-2 pt-4 pb-1">Email: </p>
+                    <p class="px-2 py-1">Contact No: </p>
+                    <p class="px-2 py-1">Address: </p>
+                    <div class="flex items-center justify-center">
+                        <a href="#" class="mt-4 bg-red-500 text-black px-4 py-2 rounded">Close</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
